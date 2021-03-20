@@ -1,0 +1,99 @@
+body {
+    background-color: #222222;
+    
+}
+
+
+h1{
+    color: #bdbdbd;
+	text-align: center;
+	font: 600 2em Tahoma, Arial, Verdana, sans-serif;
+	max-width: 60rem; 
+    width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span {
+    color: #bdbdbd;
+    font-weight:bold;
+    font-size: 1rem;
+}
+
+.eliminar {
+    border-radius: 1em;
+}
+
+
+
+#div_tarea {
+    text-align: center;
+    position: -webkit-sticky;  
+    position: sticky;
+    top: 0; 
+    z-index: 99;
+    max-width: 60rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 4rem;
+
+    background: rgb(122,122,122);
+    background: linear-gradient(0deg, rgba(122,122,122,0.3897934173669467) 0%, rgba(34,34,34,1) 47%, rgba(34,34,34,1) 86%, rgba(182,182,182,0.4066001400560224) 100%);
+    
+  }
+
+  #tarea {
+
+    font: 500 1rem Tahoma, Arial, Verdana, sans-serif;
+	width: 85%;
+	padding: 10px 20px;
+	margin: 10px 0;
+    border: none;
+	border-radius: 4px;
+	box-sizing: border-box;
+
+    background: #22222200;
+    color: #bdbdbd;
+
+    
+    
+}
+
+
+.boton{
+    font: 700 1em Tahoma, Arial, Verdana, sans-serif;
+	width: 9%;
+    height:100%;
+    padding: 10px 20px;
+    margin: 1px 0;
+    background-image:url(img/check.png);
+    background-repeat:no-repeat;
+    background-position:center;
+	background-color: #22222200;
+	color: white;
+	//padding: 11px 10px;
+	
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+    
+}
+
+#contenedor {
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    //text-align: center;
+}
+
+#tablaMostrar{
+    max-width: 60rem;
+    width: 100%;
+    border-collapse: separate;
+	border-spacing:  0 1rem;
+    
+}
+
+
+

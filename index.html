@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Trabajo Practico 0</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="contenedor">
+  <h1>Lista de Tareas de Claudio</h1>
+  
+    <div id="div_tarea">
+      <input type="text" name="tarea" id="tarea" onkeypress="return runScript(event)" autofocus placeholder="Escribe una tarea...">
+      <button onclick="add()" class="boton" id="boton">&nbsp;</button>
+
+    </div>
+
+    <div >
+      <table id="tablaMostrar">
+              <thead>
+                  <tr class="titulos">
+                  
+                      <th style="width: 10%;"></th>
+                      <th style="width: 70%;"></th>
+                      <th style="width: 3%;"></th>
+                      <th style="width: 3%;"></th>
+                      <th style="width: 3%;"></th>
+                      
+                  </tr>
+              </thead>
+              <tbody id="tabla">
+              </tbody>
+          </table>
+      
+    </div>
+  </div>
+
+  <script src="script2.js">
+
+  </script>
+
+  </body>
+</html>

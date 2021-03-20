@@ -1,0 +1,75 @@
+
+/*h1{
+	text-align: center;
+	font: 600 2em Tahoma, Arial, Verdana, sans-serif;
+	width: 60rem; 
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+button.eliminar {
+	font: 700 1em Tahoma, Arial, Verdana, sans-serif;
+	color: white; background-color: white;
+
+	/*border: 1px solid #0074a5;*/
+	border: none;
+	/*border-top: 1px solid #004370;
+	border-left: 1px solid #004370;*/
+	cursor: pointer;
+}
+
+.icon{
+	width: 24px;
+	height: 24px;
+}
+#tablaMostrar {
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+#tablaMostrar tr {
+	
+	background:  rgba(65, 65, 65, 0.487);
+	width: 98%;
+}
+
+#tablaMostrar .titulos {
+	border: none;
+	display: none;
+}
+
+#tablaMostrar td, #tablaMostrar th {
+  /*border: 1px solid #ddd;*/
+  padding: 8px;
+  text-align: center;
+}
+
+/*
+#tarea {
+	font: 500 1em Tahoma, Arial, Verdana, sans-serif;
+	width: 80%;
+	padding: 10px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}*/
+
+#tarea:hover{
+	/*border: 1px solid rgb(255, 255, 255);*/
+	border: none;
+}
+
+.checkk {
+	/* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+  z-index: -99;
+}
+
